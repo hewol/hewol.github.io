@@ -1,17 +1,10 @@
-/**
-* Template Name: Reveal
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 body {
-  background: #fff;
-  color: #444;
+  background: #000000;
+  color: #ffffff;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -64,13 +57,13 @@ h6 {
 
 .back-to-top i {
   font-size: 28px;
-  color: #fff;
+  color: #000000;
   line-height: 0;
 }
 
 .back-to-top:hover {
   background: #71dfbe;
-  color: #fff;
+  color: #000000;
 }
 
 .back-to-top.active {
@@ -82,8 +75,8 @@ h6 {
 # Top Bar
 --------------------------------------------------------------*/
 #topbar {
-  background: #fff;
-  border-bottom: 1px solid #eee;
+  background: #000000;
+  border-bottom: 1px solid #000000;
   font-size: 14px;
   padding: 0;
   height: 40px;
@@ -97,7 +90,7 @@ h6 {
 #topbar .contact-info i a,
 #topbar .contact-info i span {
   padding-left: 5px;
-  color: #444;
+  color: #ffffff;
 }
 
 #topbar .contact-info i a {
@@ -110,11 +103,11 @@ h6 {
 }
 
 #topbar .social-links a {
-  color: #555;
+  color: #ffffff;
   padding: 0 15px;
   display: inline-block;
   line-height: 1px;
-  border-left: 1px solid #e9e9e9;
+  border-left: 1px solid #000000;
 }
 
 #topbar .social-links a:hover {
@@ -132,7 +125,7 @@ h6 {
   height: 80px;
   transition: all 0.5s;
   z-index: 997;
-  background: #fff;
+  background: #000000;
   box-shadow: 0px 6px 9px 0px rgba(0, 0, 0, 0.06);
 }
 
@@ -235,7 +228,7 @@ h6 {
   z-index: 99;
   opacity: 0;
   visibility: hidden;
-  background: #fff;
+  background: #000000;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
 }
@@ -404,7 +397,6 @@ h6 {
   width: 100%;
   height: 60vh;
   position: relative;
-  background: url("../img/hero-carousel/1.jpg") no-repeat;
   background-size: cover;
   padding: 0;
 }
@@ -452,7 +444,7 @@ h6 {
   border-radius: 2px;
   transition: 0.5s;
   margin: 10px;
-  color: #fff;
+  color: #ffffff;
 }
 
 #hero .hero-content .btn-get-started {
@@ -482,7 +474,7 @@ h6 {
 
 #hero .hero-slider::before {
   content: "";
-  background-color: rgba(255, 255, 255, 0.7);
+  background-color: rgba(0, 0, 0, 0.7);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -667,7 +659,7 @@ section {
 #services .box {
   padding: 40px;
   box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
-  background: #fff;
+  background: #000000;
   transition: 0.4s;
   height: 100%;
 }
