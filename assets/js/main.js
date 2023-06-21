@@ -1,10 +1,4 @@
-/**
-* Template Name: Reveal
-* Updated: Mar 10 2023 with Bootstrap v5.2.3
-* Template URL: https://bootstrapmade.com/reveal-bootstrap-corporate-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 (function () {
   "use strict";
 
@@ -308,6 +302,6 @@
 
 // Typing Title Animation Code
 var typed = new Typed('#title-typed', {
-  strings: ['Projects', 'aerOS', 'Arch Scripts', 'Software'],
+  strings: ['Projects', 'Softwares', 'aerOS', 'Arch Scripts', 'and More!'],
   typeSpeed: 200,
 });
