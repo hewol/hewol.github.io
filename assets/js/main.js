@@ -308,6 +308,6 @@
 
 // Typing Title Animation Code
 var typed = new Typed('#title-typed', {
-  strings: ['Projects', 'aerOS', 'Arch Scripts', 'Hewol'],
+  strings: ['Projects', 'aerOS', 'Arch Scripts', 'Software'],
   typeSpeed: 200,
 });
