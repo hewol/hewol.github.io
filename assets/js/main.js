@@ -302,6 +302,6 @@
 
 // Typing Title Animation Code
 var typed = new Typed('#title-typed', {
-  strings: ['Projects', 'Softwares', 'aerOS', 'Arch Scripts', 'Projects and Softwares',
+  strings: ['Projects', 'Softwares', 'aerOS', 'Arch Scripts', 'Projects',
   typeSpeed: 200,
 });
