@@ -1,0 +1,2 @@
+Do not delete assets/bg.mp4
+It is uploaded for future use.
