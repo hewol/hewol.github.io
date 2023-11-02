@@ -1,0 +1,46 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700);
+body {
+    background: #e2f2f8;
+    color: #000;
+    font-family: "Montserrat", sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+      background: #000d13;
+      color: #fff;
+    }
+}
+/* ===== Primary and secondary ===== */
+:root {
+    --primary:#0C2E8A;
+    --secondary:#50D8AF;
+}
+#primary{
+    color:#0C2E8A;
+}
+#secondary{
+    color:#50D8AF;
+}
+#primary-bg {
+    background-color: var(--primary);
+}
+#secondary-bg {
+    background-color: var(--secondary);
+}
+
+/* ===== Scrollbar ===== */
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 22px;
+    background: #ffffff00;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 22px;
+    background: #88888828;
+}
+::-webkit-scrollbar-thumb:hover {
+    border-radius: 22px;
+    background: #a8a8a891;
+}

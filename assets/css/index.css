@@ -1,0 +1,97 @@
+/* ===== Global rules ===== */
+@import url(./global.css);
+.btn {
+    text-decoration: none;
+    padding: 6px 10px;
+    color: #fff;
+    border-radius: 8px;
+}
+.btn:hover {
+    padding: 7px 11px;
+}
+:root {
+    --primary:#0C2E8A;
+    --secondary:#50D8AF;
+}
+/* ===== Preffers Dark theme ===== */
+@media (prefers-color-scheme: dark) {
+    .navbar ul {
+      background: #000d13;
+    }
+}
+/* ===== Nav Bar ===== */
+.navbar ul {
+    position: fixed;
+    top: 5px;
+    left: 5%;
+    width: 90%;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #33333350;
+    border-radius: 10px;
+}
+.navbar li {
+    font-size: x-large;
+    float: right;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+.navbar li:first-child {
+    float: left;
+    font-weight:bold;
+}
+.navbar a:hover {
+    color: #ffffffce;
+}
+/* ===== Main ===== */
+.main {
+    padding-top: 14%;
+    text-align: center;
+    padding-bottom: 50vh;
+}
+
+.main h1 {
+    font-size: xxx-large;
+}
+.typed-cursor {
+    color: var(--secondary)
+}
+/* ===== Software ===== */
+.software { 
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-template-areas:
+      "aerosimg aerosinfo"
+      "botimg botinfo"
+      "archimg archinfo";
+}
+@media (max-width:425px) {
+    .software {
+        display:block;
+    }
+}
+.aerosimg {grid-area: aerosimg;}
+.botimg {grid-area: botimg;}
+.archimg {grid-area: archimg;padding-top: 5%;}
+.aerosinfo {grid-area: aerosinfo;}
+.botinfo {grid-area: botinfo;}
+.archinfo {grid-area: archinfo;}
+.aerosimg, .botimg, .archimg {
+    text-align: center;
+}
+.aerosinfo, .botinfo, .archinfo {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+img {
+    max-width: 90%
+}
