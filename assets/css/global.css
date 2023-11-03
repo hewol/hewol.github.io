@@ -3,6 +3,8 @@ body {
     background: #e2f2f8;
     color: #000;
     font-family: "Montserrat", sans-serif;
+    animation-timing-function: ease-out;
+    animation: xanudu 1.5s;
 }
 @media (prefers-color-scheme: dark) {
     body {
@@ -43,4 +45,9 @@ body {
 ::-webkit-scrollbar-thumb:hover {
     border-radius: 22px;
     background: #a8a8a891;
+}
+/* ===== Animation ===== */
+@keyframes xanudu {
+    from {opacity: 0;}
+    to {opacity: 1;}
 }
