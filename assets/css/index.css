@@ -74,9 +74,12 @@
       "botimg botinfo"
       "archimg archinfo";
 }
-@media (max-width:425px) {
+@media (max-width:598px) {
     .software {
         display:block;
+    }
+    .software img{
+        margin-top: 10%;
     }
 }
 .aerosimg {grid-area: aerosimg;}
@@ -92,6 +95,7 @@
     margin-top: 10%;
     margin-left: 5%;
 }
-img {
-    max-width: 90%
+.software img {
+    padding-top: 5%;
+    max-width: 90%;
 }
