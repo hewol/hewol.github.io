@@ -1,8 +1,4 @@
-# Hewol's official website
-Hewol Website repo<br>
-This repo contains the Hewol website files.
-
-### State of deployment
+# Hewolwebsite
 | Overall | Branch | Push |
 |---------|--------|------|
 | ![workflow](https://github.com/hewol/hewol.github.io/actions/workflows/main.yml/badge.svg) | ![workflow branch](https://github.com/hewol/hewol.github.io/actions/workflows/main.yml/badge.svg?branch=main) | ![workflow push event](https://github.com/hewol/hewol.github.io/actions/workflows/main.yml/badge.svg?event=push) |
