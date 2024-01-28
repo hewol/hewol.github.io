@@ -1,10 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800|Montserrat:300,400,700);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css);
 body {
     background: #e2f2f8;
     color: #000;
     font-family: "Montserrat", sans-serif;
     animation-timing-function: ease-out;
-    animation: xanudu 1.5s;
+    animation: load 1.5s;
 }
 @media (prefers-color-scheme: dark) {
     body {
@@ -46,8 +47,20 @@ body {
     border-radius: 22px;
     background: #a8a8a891;
 }
+
 /* ===== Animation ===== */
-@keyframes xanudu {
+@keyframes load {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+body {
+    background: #e2f2f8;
+    color: #000;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+      background: #000d13;
+      color: #fff;
+    }
 }
