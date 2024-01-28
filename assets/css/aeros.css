@@ -1,0 +1,28 @@
+@import url(./global.css);
+body {
+    background: #F1F0EF;
+    color: #000;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+      background: #342346;
+      color: #fff;
+    }
+}
+/* ===== Primary and secondary ===== */
+:root {
+    --primary:#0C2E8A;
+    --secondary:#50D8AF;
+}
+#primary{
+    color:#0C2E8A;
+}
+#secondary{
+    color:#50D8AF;
+}
+#primary-bg {
+    background-color: var(--primary);
+}
+#secondary-bg {
+    background-color: var(--secondary);
+}

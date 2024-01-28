@@ -4,7 +4,7 @@ body {
     color: #000;
     font-family: "Montserrat", sans-serif;
     animation-timing-function: ease-out;
-    animation: xanudu 1.5s;
+    animation: load 1.5s;
 }
 @media (prefers-color-scheme: dark) {
     body {
@@ -46,8 +46,20 @@ body {
     border-radius: 22px;
     background: #a8a8a891;
 }
+
 /* ===== Animation ===== */
-@keyframes xanudu {
+@keyframes load {
     from {opacity: 0;}
     to {opacity: 1;}
+}
+
+body {
+    background: #e2f2f8;
+    color: #000;
+}
+@media (prefers-color-scheme: dark) {
+    body {
+      background: #000d13;
+      color: #fff;
+    }
 }
