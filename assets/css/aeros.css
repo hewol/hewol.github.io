@@ -1,28 +1,118 @@
+/* ===== Global rules ===== */
 @import url(./global.css);
+:root {
+    --primary:#282F5B;
+    --secondary:#53628D;
+    --primary-dark: #21274A;
+    --secondary-dark: #354A86;
+
+}
 body {
     background: #F1F0EF;
     color: #000;
+    font-size: x-large;
+    margin: 1% 10%;
+}
+* {
+    font-weight: 400;
+    text-align: center;
+}
+/* ===== Buttons ===== */
+.btn {
+    text-decoration: none;
+    padding: 6px 12px;
+    color: #fff;
+    border-radius: 50px;
+}
+.btn:hover {
+    color: #ffffffc9;
+}
+a{
+    font-size: medium;
+    text-decoration: none;
 }
 @media (prefers-color-scheme: dark) {
     body {
-      background: #342346;
+      background: #282F5B;
       color: #fff;
     }
+    a#primary-bg {
+        background-color: var(--primary-dark);
+    }
+    a#secondary-bg {
+        background-color: var(--secondary-dark);
+    }
+    a{
+        color: #fff;
+    }
+    a:hover {
+        color: #ffffffc9;
+    }
 }
-/* ===== Primary and secondary ===== */
-:root {
-    --primary:#0C2E8A;
-    --secondary:#50D8AF;
+@media (prefers-color-scheme: light) {
+    a#primary-bg {
+        background-color: var(--primary);
+    }
+    a#secondary-bg {
+        background-color: var(--secondary);
+    }
+    a{
+        color: #000;
+    }
+    a:hover {
+        color: #000000a6;
+    }
 }
-#primary{
-    color:#0C2E8A;
+/* ===== "Nav Bar" ===== */
+.navbar a{
+    padding: 5%;
 }
-#secondary{
-    color:#50D8AF;
+/* ===== Main ===== */
+.main {
+    margin-top: 10%;
+    margin-bottom: 25%;
 }
-#primary-bg {
-    background-color: var(--primary);
+/* ===== Info ===== */
+.info p {
+    font-size: medium;
 }
-#secondary-bg {
-    background-color: var(--secondary);
+.info {
+    display: grid;
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-row-gap: 10px;
+    grid-template-areas:
+      "info1 img1"
+      "img2 info2"
+}
+.info1 {grid-area: info1;}
+.info2 {grid-area: info2;}
+.img1 {grid-area: img1;}
+.img2 {grid-area: img2;}
+.info1, .info2, .archinfo {
+    margin-top: 10%;
+    margin-left: 5%;
+}
+.info img {
+    padding-top: 5%;
+    max-width: 90%;
+}
+.info span#bold {
+    font-weight: bold;
+}
+/* ===== Mobile ===== */
+@media (max-width:598px) {
+    body {
+        font-size: large;
+    }
+    .navbar {
+        padding-top: 5%;
+    }
+    .main {
+        margin-top: 50%;
+        margin-bottom: 125%;
+    }
+    .info {
+        display: block;
+    }
 }

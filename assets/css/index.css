@@ -99,3 +99,10 @@
     padding-top: 5%;
     max-width: 90%;
 }
+
+a#lookin4devs, a:visited#lookin4devs{
+    color: #cc2727;
+}
+a:hover#lookin4devs {
+    color: #cc2727b6;
+}
