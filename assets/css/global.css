@@ -19,10 +19,10 @@ body {
     --secondary:#50D8AF;
 }
 #primary{
-    color:#0C2E8A;
+    color: var(--primary);
 }
 #secondary{
-    color:#50D8AF;
+    color: var(--secondary);
 }
 #primary-bg {
     background-color: var(--primary);
